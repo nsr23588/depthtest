@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendXMLMap="http://www.talend.org/xmlmap" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default"/>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:LQNeXY0S5VN5/He60+UrOUGywzQ7Vn/skwZ78aru"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/dhs60128/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:mQosKrLuM2Sj3sbOU5mLfmzBr9jL7RBtmQVt+aeY"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_msGCsGHtEe21SJiOox3-HQ" name="DataOperation"/>
+    <routinesParameter id="_mtGvUGHtEe21SJiOox3-HQ" name="Mathematical"/>
+    <routinesParameter id="_mtMO4GHtEe21SJiOox3-HQ" name="Numeric"/>
+    <routinesParameter id="_mtRucGHtEe21SJiOox3-HQ" name="Relational"/>
+    <routinesParameter id="_mtfJ0GHtEe21SJiOox3-HQ" name="StringHandling"/>
+    <routinesParameter id="_mtjbQGHtEe21SJiOox3-HQ" name="TalendDataGenerator"/>
+    <routinesParameter id="_mtnssGHtEe21SJiOox3-HQ" name="TalendDate"/>
+    <routinesParameter id="_mtr-IGHtEe21SJiOox3-HQ" name="TalendString"/>
+    <routinesParameter id="_mtwPkGHtEe21SJiOox3-HQ" name="TalendStringUtil"/>
+    <routinesParameter id="_mt0hAGHtEe21SJiOox3-HQ" name="DataMasking"/>
+    <routinesParameter id="_mt4ycGHtEe21SJiOox3-HQ" name="DataQuality"/>
+    <routinesParameter id="_mt9D4GHtEe21SJiOox3-HQ" name="DataQualityDependencies"/>
+    <routinesParameter id="_muDxkGHtEe21SJiOox3-HQ" name="DqStringHandling"/>
+    <routinesParameter id="_muHb8GHtEe21SJiOox3-HQ" name="DQTechnical"/>
+    <routinesParameter id="_muMUcGHtEe21SJiOox3-HQ" name="SQLike"/>
+  </parameters>
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_1"/>
+    <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
+    <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
+    <elementParameter field="TABLE" name="VALUES">
+      <elementValue elementRef="SCHEMA_COLUMN" value="code"/>
+      <elementValue elementRef="VALUE" value="&quot;500&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="message"/>
+      <elementValue elementRef="VALUE" value="&quot;Error: ID not found&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="service"/>
+      <elementValue elementRef="VALUE" value="&quot;getCurriculum&quot;"/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
+    <elementParameter field="TABLE" name="INTABLE" show="false"/>
+    <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+    <elementParameter field="MEMO" name="INLINECONTENT" show="false" value=""/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFixedFlowInput_1">
+      <column comment="" key="false" length="-1" name="code" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="message" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="service" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="544" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tXMLMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="KEEP_ORDER_FOR_DOCUMENT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="DATA_XFR"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="copyOftRestResponse">
+      <column key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendXMLMap:XmlMapData">
+      <inputTrees lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="row3">
+        <nodes name="code" outgoingConnections="//@node.1/@nodeData/@connections.0" type="id_String" xpath="row3/code"/>
+        <nodes name="message" outgoingConnections="//@node.1/@nodeData/@connections.1" type="id_String" xpath="row3/message"/>
+        <nodes name="service" outgoingConnections="//@node.1/@nodeData/@connections.2" type="id_String" xpath="row3/service"/>
+      </inputTrees>
+      <outputTrees name="copyOftRestResponse">
+        <nodes expression="" name="body" pattern="" type="id_Document" xpath="copyOftRestResponse/body">
+          <children expression="" loop="true" main="true" name="root" type="id_String" xpath="copyOftRestResponse.body:/root" xsi:type="TalendXMLMap:OutputTreeNode">
+            <children expression=" row3.code" incomingConnections="//@node.1/@nodeData/@connections.0" name="responseCode" type="id_String" xpath="copyOftRestResponse.body:/root/responseCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            <children expression="row3.message" incomingConnections="//@node.1/@nodeData/@connections.1" name="responseMessage" type="id_String" xpath="copyOftRestResponse.body:/root/responseMessage" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            <children expression="row3.service" incomingConnections="//@node.1/@nodeData/@connections.2" name="service" type="id_String" xpath="copyOftRestResponse.body:/root/service" xsi:type="TalendXMLMap:OutputTreeNode"/>
+          </children>
+        </nodes>
+      </outputTrees>
+      <varTables name="Var"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.0" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.0" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.2" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.2" xsi:type="TalendXMLMap:Connection"/>
+    </nodeData>
+  </node>
+  <node componentName="tRESTResponse" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRESTResponse_2"/>
+    <elementParameter field="REST_RESPONSE_SCHEMA_TYPE" name="RESPONSE_TYPE" value="id_String"/>
+    <elementParameter field="CLOSED_LIST" name="STATUS_CODE" value="200"/>
+    <elementParameter field="TEXT" name="CUSTOM_STATUS_CODE" show="false" value="200"/>
+    <elementParameter field="TABLE" name="RESPONSE_HEADERS">
+      <elementValue elementRef="NAME" value="&quot;Content-Type&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;application/json&quot;"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="UNWRAP_JSON_RESPONSE" value="true"/>
+    <elementParameter field="TEXT" name="JSON_ARRAY_KEYS" value=""/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRESTResponse_2">
+      <column defaultValue="" key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tRESTRequest" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRESTRequest_1"/>
+    <elementParameter field="TEXT" name="API_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="REST_ENDPOINT" value="&quot;/getStudentCourses&quot;"/>
+    <elementParameter field="TABLE" name="SCHEMAS">
+      <elementValue elementRef="SCHEMA" value="getsfa"/>
+      <elementValue elementRef="HTTP_VERB" value="GET"/>
+      <elementValue elementRef="URI_PATTERN" value="&quot;/&quot;"/>
+      <elementValue elementRef="CONSUMES" value="NONE"/>
+      <elementValue elementRef="PRODUCES" value="JSON"/>
+      <elementValue elementRef="STREAMING" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="SERVICE_LOCATOR" value="false"/>
+    <elementParameter field="TEXT" name="SERVICE_NAMESPACE" show="false" value="&quot;http://www.talend.org/rest/&quot;"/>
+    <elementParameter field="TEXT" name="SERVICE_NAME" show="false" value="&quot;getStudentFinancialAid&quot;"/>
+    <elementParameter field="CHECK" name="SERVICE_ACTIVITY_MONITOR" value="false"/>
+    <elementParameter field="CHECK" name="NEED_AUTH" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" show="false" value="BASIC"/>
+    <elementParameter field="CHECK" name="NEED_AUTHORIZATION" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_BUSINESS_CORRELATION" value="false"/>
+    <elementParameter field="CHECK" name="LOG_MESSAGES" value="false"/>
+    <elementParameter field="CHECK" name="WRAP_JSON_REQUEST" value="false"/>
+    <elementParameter field="CHECK" name="ATTRIBUTES_TO_ELEMENTS" value="true"/>
+    <elementParameter field="TABLE" name="SERVICE_LOCATOR_CUSTOM_PROPERTIES" show="false"/>
+    <elementParameter field="TABLE" name="SERVICE_ACTIVITY_MONITOR_CUSTOM_PROPERTIES" show="false"/>
+    <elementParameter field="CHECK" name="CONVERT_JSON_VALUES_TO_STRING" value="false"/>
+    <elementParameter field="CHECK" name="EXPOSE_SWAGGER_SPEC" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDE_DOC_INTO_SWAGGER_SPEC" show="false" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="WRONG_CALLS" name="WRONG_CALLS">
+      <column defaultValue="" key="false" length="255" name="uri" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="method" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="status" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="1024" name="error" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" label="getsfa" name="getsfa">
+      <column comment="query" key="false" length="-1" name="netid" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_1"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="String data = &quot;&quot;;&#10;boolean found = false;&#10;&#10;if (input_row.netid.equals(&quot;rra44849&quot;)){&#10;&#9;data = &quot;Here is rra44849 field of study&quot;;&#10;}else{&#10;&#9;data = &quot;Please enter students netID&quot;;&#10;&#9;found = true;&#10;}&#10;&#10;globalMap.put(&quot;found&quot;, found);&#10;//output_row.netid = input_row.netid;&#10;//output_row.data = data;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="getsfa" name="tJavaRow_1">
+      <column comment="query" key="false" length="-1" name="data" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tSetGlobalVar" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSetGlobalVar_1"/>
+    <elementParameter field="TABLE" name="VARIABLES">
+      <elementValue elementRef="KEY" value="&quot;acyrCode&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;2024&quot;"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="getsfa" name="tSetGlobalVar_1">
+      <column comment="query" key="false" length="-1" name="data" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="544" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tXMLMap_3"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="KEEP_ORDER_FOR_DOCUMENT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="DATA_XFR"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRestResponse">
+      <column key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendXMLMap:XmlMapData">
+      <inputTrees lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="row2">
+        <nodes name="data" type="id_String" xpath="row2/data"/>
+      </inputTrees>
+      <outputTrees name="tRestResponse">
+        <nodes expression="" name="body" pattern="" type="id_Document" xpath="tRestResponse/body">
+          <children expression="" loop="true" main="true" name="root" type="id_String" xpath="tRestResponse.body:/root" xsi:type="TalendXMLMap:OutputTreeNode">
+            <children expression="" name="SFTDWER" type="id_String" xpath="tRestResponse.body:/root/SFTDWER" xsi:type="TalendXMLMap:OutputTreeNode">
+              <children expression="&quot;string&quot;" name="errorMessage" type="id_String" xpath="tRestResponse.body:/root/SFTDWER/errorMessage" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            </children>
+            <children expression="" name="SFRCOLR" type="id_String" xpath="tRestResponse.body:/root/SFRCOLR" xsi:type="TalendXMLMap:OutputTreeNode">
+              <children expression="&quot;s&quot;" name="assessFees" type="id_String" xpath="tRestResponse.body:/root/SFRCOLR/assessFees" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;s&quot;" name="hold" type="id_String" xpath="tRestResponse.body:/root/SFRCOLR/hold" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            </children>
+            <children expression="" name="SFTREGS" type="id_String" xpath="tRestResponse.body:/root/SFTREGS" xsi:type="TalendXMLMap:OutputTreeNode">
+              <children expression="&quot;0&quot;" name="attemptHr" type="id_String" xpath="tRestResponse.body:/root/SFTREGS/attemptHr" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;s&quot;" name="gmodCode" type="id_String" xpath="tRestResponse.body:/root/SFTREGS/gmodCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;0&quot;" name="stspKeySequence" type="id_String" xpath="tRestResponse.body:/root/SFTREGS/stspKeySequence" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;0&quot;" name="billHr" type="id_String" xpath="tRestResponse.body:/root/SFTREGS/billHr" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;0&quot;" name="creditHr" type="id_String" xpath="tRestResponse.body:/root/SFTREGS/creditHr" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;str&quot;" name="ssbsectSeqNumb" type="id_String" xpath="tRestResponse.body:/root/SFTREGS/ssbsectSeqNumb" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;s&quot;" name="apprReceivedInd" type="id_String" xpath="tRestResponse.body:/root/SFTREGS/apprReceivedInd" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="rwoverride" type="id_String" xpath="tRestResponse.body:/root/SFTREGS/rwoverride" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="frDiscountCrnDisplay" type="id_String" xpath="tRestResponse.body:/root/SFTREGS/frDiscountCrnDisplay" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;stri&quot;" name="ssbsectSubjCode" type="id_String" xpath="tRestResponse.body:/root/SFTREGS/ssbsectSubjCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;0&quot;" name="tmstHr" type="id_String" xpath="tRestResponse.body:/root/SFTREGS/tmstHr" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;String&quot;" name="ssbsectCrseNumb" type="id_String" xpath="tRestResponse.body:/root/SFTREGS/ssbsectCrseNumb" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="ptrmCode" type="id_String" xpath="tRestResponse.body:/root/SFTREGS/ptrmCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="errorFlagDisplay" type="id_String" xpath="tRestResponse.body:/root/SFTREGS/errorFlagDisplay" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;st&quot;" name="rstsCode" type="id_String" xpath="tRestResponse.body:/root/SFTREGS/rstsCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;str&quot;" name="campCode" type="id_String" xpath="tRestResponse.body:/root/SFTREGS/campCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="vrStatusTypeDisplay" type="id_String" xpath="tRestResponse.body:/root/SFTREGS/vrStatusTypeDisplay" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;strin&quot;" name="ssbsectInsmCode" type="id_String" xpath="tRestResponse.body:/root/SFTREGS/ssbsectInsmCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;strin&quot;" name="crn" type="id_String" xpath="tRestResponse.body:/root/SFTREGS/crn" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;st&quot;" name="levlCode" type="id_String" xpath="tRestResponse.body:/root/SFTREGS/levlCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            </children>
+            <children expression="&quot;200&quot;" name="responseCode" type="id_String" xpath="tRestResponse.body:/root/responseCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            <children expression="" name="SFBETRM" type="id_String" xpath="tRestResponse.body:/root/SFBETRM" xsi:type="TalendXMLMap:OutputTreeNode">
+              <children expression="&quot;string&quot;" name="stvrgreDesc" type="id_String" xpath="tRestResponse.body:/root/SFBETRM/stvrgreDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;s&quot;" name="arInd" type="id_String" xpath="tRestResponse.body:/root/SFBETRM/arInd" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="rgreCode" type="id_String" xpath="tRestResponse.body:/root/SFBETRM/rgreCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="stvestsDesc" type="id_String" xpath="tRestResponse.body:/root/SFBETRM/stvestsDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="frDiscountDisplay" type="id_String" xpath="tRestResponse.body:/root/SFBETRM/frDiscountDisplay" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;s&quot;" name="deleteAllCrnsInd" type="id_String" xpath="tRestResponse.body:/root/SFBETRM/deleteAllCrnsInd" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;0&quot;" name="minHrs" type="id_String" xpath="tRestResponse.body:/root/SFBETRM/minHrs" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="maxhSrceCde" type="id_String" xpath="tRestResponse.body:/root/SFBETRM/maxhSrceCde" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="holdBlckCode" type="id_String" xpath="tRestResponse.body:/root/SFBETRM/holdBlckCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;st&quot;" name="estsCode" type="id_String" xpath="tRestResponse.body:/root/SFBETRM/estsCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;2022-10-31T&quot;" name="estsDate" type="id_String" xpath="tRestResponse.body:/root/SFBETRM/estsDate" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;s&quot;" name="processBlockInd" type="id_String" xpath="tRestResponse.body:/root/SFBETRM/processBlockInd" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;0&quot;" name="mhrsOver" type="id_String" xpath="tRestResponse.body:/root/SFBETRM/mhrsOver" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="minhSrceCde" type="id_String" xpath="tRestResponse.body:/root/SFBETRM/minhSrceCde" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            </children>
+            <children expression="" name="SFRENSP" type="id_String" xpath="tRestResponse.body:/root/SFRENSP" xsi:type="TalendXMLMap:OutputTreeNode">
+              <children expression="&quot;st&quot;" name="estsCode" type="id_String" xpath="tRestResponse.body:/root/SFRENSP/estsCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;s&quot;" name="regAllowed" type="id_String" xpath="tRestResponse.body:/root/SFRENSP/regAllowed" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="holdSpBlckCode" type="id_String" xpath="tRestResponse.body:/root/SFRENSP/holdSpBlckCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="spEstsDesc" type="id_String" xpath="tRestResponse.body:/root/SFRENSP/spEstsDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;0&quot;" name="keySeqno" type="id_String" xpath="tRestResponse.body:/root/SFRENSP/keySeqno" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            </children>
+            <children expression="" name="SGBSTDN" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN" xsi:type="TalendXMLMap:OutputTreeNode">
+              <children expression="&quot;string&quot;" name="termCastDesc" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/termCastDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="astdDesc" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/astdDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="advrName" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/advrName" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="termEffDesc" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/termEffDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="xxxxxxxCastCode" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/xxxxxxxCastCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="lastTermAttended" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/lastTermAttended" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="ststDesc" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/ststDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="xxxxxxxPrevCode" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/xxxxxxxPrevCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="stypDesc" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/stypDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="stvscpcDesc" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/stvscpcDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="fullPartDesc" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/fullPartDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="xxxxxxxTermCodeCast" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/xxxxxxxTermCodeCast" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="termPrevDesc" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/termPrevDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="fullPartInd" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/fullPartInd" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="castDesc" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/castDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="termAstdDesc" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/termAstdDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="termCodeEff" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/termCodeEff" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="xxxxxxxAstdCode" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/xxxxxxxAstdCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="prevDesc" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/prevDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="resdCode" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/resdCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="blckDesc" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/blckDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="termaDesc" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/termaDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="scpcCode" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/scpcCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="rateDesc" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/rateDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="ststCode" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/ststCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="blckCode" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/blckCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="stypCode" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/stypCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;st&quot;" name="sgrclsrClasCode" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/sgrclsrClasCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="clasDesc" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/clasDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="xxxxxxxTermCodeAstd" type="id_String" xpath="tRestResponse.body:/root/SGBSTDN/xxxxxxxTermCodeAstd" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            </children>
+            <children expression="" name="SORLCUR" type="id_String" xpath="tRestResponse.body:/root/SORLCUR" xsi:type="TalendXMLMap:OutputTreeNode">
+              <children expression="&quot;string&quot;" name="programDesc" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/programDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="leavCode" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/leavCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;2022-10-31T&quot;" name="endDate" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/endDate" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="admtTermDesc" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/admtTermDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="degcCode" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/degcCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="matricTermDesc" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/matricTermDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="program" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/program" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="leavCodeDesc" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/leavCodeDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="catlgTermDesc" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/catlgTermDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="lcurRolledKeySeqno" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/lcurRolledKeySeqno" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="campCode" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/campCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="termDesc" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/termDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="cactCode" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/cactCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;2022-10-31T&quot;" name="leavFromDate" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/leavFromDate" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="lmodCodeDesc" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/lmodCodeDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="termCodeDesc" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/termCodeDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="campDesc" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/campDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="lmodCode" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/lmodCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;s&quot;" name="rollInd" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/rollInd" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;0&quot;" name="sovlcurApplKeySeqno" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/sovlcurApplKeySeqno" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="collCode" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/collCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="levlCode" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/levlCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;2022-10-31T&quot;" name="startDate" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/startDate" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="rateCodeDesc" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/rateCodeDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="termCodeMatric" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/termCodeMatric" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="rateCode" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/rateCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="termCodeGrad" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/termCodeGrad" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;0&quot;" name="gappSeqno" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/gappSeqno" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;2022-10-31T16:35:37.935Z&quot;" name="activityDate" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/activityDate" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="admtCode" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/admtCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;0&quot;" name="priorityNo" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/priorityNo" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;2022-10-31T&quot;" name="leavToDate" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/leavToDate" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="levlDesc" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/levlDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="termCodeCtlg" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/termCodeCtlg" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="siteCode" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/siteCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;0&quot;" name="seqno" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/seqno" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;s&quot;" name="sovlcurCurrentInd" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/sovlcurCurrentInd" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="termCodeEnd" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/termCodeEnd" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="userId" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/userId" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="degcDesc" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/degcDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;0&quot;" name="keySeqno" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/keySeqno" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="acyrCode" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/acyrCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="termCodeAdmit" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/termCodeAdmit" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="stypCode" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/stypCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="endTermDesc" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/endTermDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="siteCodeDesc" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/siteCodeDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="acyrCodeDesc" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/acyrCodeDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="admtDesc" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/admtDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="termCode" type="id_String" xpath="tRestResponse.body:/root/SORLCUR/termCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            </children>
+            <children expression="" name="SORLFOS" type="id_String" xpath="tRestResponse.body:/root/SORLFOS" xsi:type="TalendXMLMap:OutputTreeNode">
+              <children expression="&quot;string&quot;" name="termCodeCtlg" type="id_String" xpath="tRestResponse.body:/root/SORLFOS/termCodeCtlg" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="majrCodeAttach" type="id_String" xpath="tRestResponse.body:/root/SORLFOS/majrCodeAttach" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;0&quot;" name="seqno" type="id_String" xpath="tRestResponse.body:/root/SORLFOS/seqno" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="tmstDesc" type="id_String" xpath="tRestResponse.body:/root/SORLFOS/tmstDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;2022-10-31T&quot;" name="endDate" type="id_String" xpath="tRestResponse.body:/root/SORLFOS/endDate" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="majrDesc" type="id_String" xpath="tRestResponse.body:/root/SORLFOS/majrDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="tmstCode" type="id_String" xpath="tRestResponse.body:/root/SORLFOS/tmstCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="lfosRolledInd" type="id_String" xpath="tRestResponse.body:/root/SORLFOS/lfosRolledInd" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="majrCode" type="id_String" xpath="tRestResponse.body:/root/SORLFOS/majrCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="termCodeEnd" type="id_String" xpath="tRestResponse.body:/root/SORLFOS/termCodeEnd" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="userId" type="id_String" xpath="tRestResponse.body:/root/SORLFOS/userId" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;s&quot;" name="currentInd" type="id_String" xpath="tRestResponse.body:/root/SORLFOS/currentInd" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="lfstCode" type="id_String" xpath="tRestResponse.body:/root/SORLFOS/lfstCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;2022-10-31T16:35:37.935Z&quot;" name="activityDate" type="id_String" xpath="tRestResponse.body:/root/SORLFOS/activityDate" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;0&quot;" name="priorityNo" type="id_String" xpath="tRestResponse.body:/root/SORLFOS/priorityNo" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="attachConcDesc" type="id_String" xpath="tRestResponse.body:/root/SORLFOS/attachConcDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="deptDesc" type="id_String" xpath="tRestResponse.body:/root/SORLFOS/deptDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="cstsCode" type="id_String" xpath="tRestResponse.body:/root/SORLFOS/cstsCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="deptCode" type="id_String" xpath="tRestResponse.body:/root/SORLFOS/deptCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="lfstCodeDesc" type="id_String" xpath="tRestResponse.body:/root/SORLFOS/lfstCodeDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;2022-10-31T&quot;" name="startDate" type="id_String" xpath="tRestResponse.body:/root/SORLFOS/startDate" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="cactCode" type="id_String" xpath="tRestResponse.body:/root/SORLFOS/cactCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="termCode" type="id_String" xpath="tRestResponse.body:/root/SORLFOS/termCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            </children>
+            <children expression="" name="s_curricula_traditional" type="id_String" xpath="tRestResponse.body:/root/s_curricula_traditional" xsi:type="TalendXMLMap:OutputTreeNode">
+              <children expression="&quot;str&quot;" name="lcurRecCnt" type="id_String" xpath="tRestResponse.body:/root/s_curricula_traditional/lcurRecCnt" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="lcurCollegeDisplay" type="id_String" xpath="tRestResponse.body:/root/s_curricula_traditional/lcurCollegeDisplay" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="dataSeperatorLine2a" type="id_String" xpath="tRestResponse.body:/root/s_curricula_traditional/dataSeperatorLine2a" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="lcurLmodCodeDisplay" type="id_String" xpath="tRestResponse.body:/root/s_curricula_traditional/lcurLmodCodeDisplay" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;str&quot;" name="lcurRecNum" type="id_String" xpath="tRestResponse.body:/root/s_curricula_traditional/lcurRecNum" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;0&quot;" name="lcurSeqnoDisplay" type="id_String" xpath="tRestResponse.body:/root/s_curricula_traditional/lcurSeqnoDisplay" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="lcurCampusDisplay" type="id_String" xpath="tRestResponse.body:/root/s_curricula_traditional/lcurCampusDisplay" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="lcurPriorityDisplay" type="id_String" xpath="tRestResponse.body:/root/s_curricula_traditional/lcurPriorityDisplay" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="lcurDegreeDisplay" type="id_String" xpath="tRestResponse.body:/root/s_curricula_traditional/lcurDegreeDisplay" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;0&quot;" name="lcurKeySeqnoDisplay" type="id_String" xpath="tRestResponse.body:/root/s_curricula_traditional/lcurKeySeqnoDisplay" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="dataSeparatorLine1" type="id_String" xpath="tRestResponse.body:/root/s_curricula_traditional/dataSeparatorLine1" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="lcurCactCodeDisplay" type="id_String" xpath="tRestResponse.body:/root/s_curricula_traditional/lcurCactCodeDisplay" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="lcurTermCodeDisplay" type="id_String" xpath="tRestResponse.body:/root/s_curricula_traditional/lcurTermCodeDisplay" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="dataSeparatorLine2" type="id_String" xpath="tRestResponse.body:/root/s_curricula_traditional/dataSeparatorLine2" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="lcurLevelDisplay" type="id_String" xpath="tRestResponse.body:/root/s_curricula_traditional/lcurLevelDisplay" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;s&quot;" name="lcurCurrentIndDisplay" type="id_String" xpath="tRestResponse.body:/root/s_curricula_traditional/lcurCurrentIndDisplay" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;str&quot;" name="lcurRecCntLfos" type="id_String" xpath="tRestResponse.body:/root/s_curricula_traditional/lcurRecCntLfos" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;str&quot;" name="lcurRecNumLfos" type="id_String" xpath="tRestResponse.body:/root/s_curricula_traditional/lcurRecNumLfos" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="lcurCatlgDisplay" type="id_String" xpath="tRestResponse.body:/root/s_curricula_traditional/lcurCatlgDisplay" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="lcurTermCodeEndDisplay" type="id_String" xpath="tRestResponse.body:/root/s_curricula_traditional/lcurTermCodeEndDisplay" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="lcurProgramDisplay" type="id_String" xpath="tRestResponse.body:/root/s_curricula_traditional/lcurProgramDisplay" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            </children>
+            <children name="s_studypath" type="id_String" xpath="tRestResponse.body:/root/s_studypath" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            <children expression="" name="SGRSTSP" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP" xsi:type="TalendXMLMap:OutputTreeNode">
+              <children expression="&quot;string&quot;" name="gainDesc" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/gainDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="astdDesc" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/astdDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="prevCode" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/prevCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="egolDesc" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/egolDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="incmCode" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/incmCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="edlvCode" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/edlvCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="caplDesc" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/caplDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="stspCode" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/stspCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="sessDesc" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/sessDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="pracCode" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/pracCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="incmDesc" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/incmDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="emexCode" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/emexCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="trcnCode" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/trcnCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="castCode" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/castCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="aprnDesc" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/aprnDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="fullPartInd" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/fullPartInd" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="orsnCode" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/orsnCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="castDesc" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/castDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="termCodeEff" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/termCodeEff" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="caplCode" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/caplCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="prevDesc" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/prevDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="resdCode" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/resdCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="edlvDesc" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/edlvDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="blckDesc" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/blckDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="bsklDesc" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/bsklDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="endStspTerm" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/endStspTerm" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="stspDesc" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/stspDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;0&quot;" name="keySeqno" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/keySeqno" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="pracDesc" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/pracDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="bsklCode" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/bsklCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="trcnDesc" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/trcnDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="blckCode" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/blckCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="egolCode" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/egolCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="name" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/name" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="aprnCode" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/aprnCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="orsnDesc" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/orsnDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="gainCode" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/gainCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="voedCode" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/voedCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="astdCode" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/astdCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="emexDesc" type="id_String" xpath="tRestResponse.body:/root/SGRSTSP/emexDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            </children>
+            <children expression="" name="SFRTHST" type="id_String" xpath="tRestResponse.body:/root/SFRTHST" xsi:type="TalendXMLMap:OutputTreeNode">
+              <children expression="&quot;2022-10-31T&quot;" name="holdTmstDate" type="id_String" xpath="tRestResponse.body:/root/SFRTHST/holdTmstDate" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;2022-10-31T&quot;" name="activityDate" type="id_String" xpath="tRestResponse.body:/root/SFRTHST/activityDate" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="tmstMaintIndDesc" type="id_String" xpath="tRestResponse.body:/root/SFRTHST/tmstMaintIndDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="tmstCode" type="id_String" xpath="tRestResponse.body:/root/SFRTHST/tmstCode" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="term" type="id_String" xpath="tRestResponse.body:/root/SFRTHST/term" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="holdTmstTime" type="id_String" xpath="tRestResponse.body:/root/SFRTHST/holdTmstTime" xsi:type="TalendXMLMap:OutputTreeNode"/>
+              <children expression="&quot;string&quot;" name="stvtmstDesc" type="id_String" xpath="tRestResponse.body:/root/SFRTHST/stvtmstDesc" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            </children>
+          </children>
+        </nodes>
+      </outputTrees>
+      <varTables name="Var"/>
+    </nodeData>
+  </node>
+  <node componentName="tRESTResponse" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRESTResponse_1"/>
+    <elementParameter field="REST_RESPONSE_SCHEMA_TYPE" name="RESPONSE_TYPE" value="id_String"/>
+    <elementParameter field="CLOSED_LIST" name="STATUS_CODE" value="200"/>
+    <elementParameter field="TEXT" name="CUSTOM_STATUS_CODE" show="false" value="200"/>
+    <elementParameter field="TABLE" name="RESPONSE_HEADERS">
+      <elementValue elementRef="NAME" value="&quot;Content-Type&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;application/json&quot;"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="UNWRAP_JSON_RESPONSE" value="true"/>
+    <elementParameter field="TEXT" name="JSON_ARRAY_KEYS" value=""/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRESTResponse_1">
+      <column defaultValue="" key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tXMLMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
+  </connection>
+  <connection connectorName="FLOW" label="copyOftRestResponse" lineStyle="0" metaname="copyOftRestResponse" offsetLabelX="0" offsetLabelY="0" source="tXMLMap_1" target="tRESTResponse_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="copyOftRestResponse"/>
+  </connection>
+  <connection connectorName="FLOW" label="getsfa" lineStyle="0" metaname="getsfa" offsetLabelX="0" offsetLabelY="0" source="tRESTRequest_1" target="tJavaRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="getsfa"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tJavaRow_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tJavaRow_1" target="tFixedFlowInput_1">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="(boolean)globalMap.get(&quot;found&quot;)"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If1"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tJavaRow_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tJavaRow_1" target="tSetGlobalVar_1">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="!(boolean)globalMap.get(&quot;found&quot;)"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If2"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tSetGlobalVar_1" offsetLabelX="0" offsetLabelY="0" source="tSetGlobalVar_1" target="tXMLMap_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+  </connection>
+  <connection connectorName="FLOW" label="tRestResponse" lineStyle="0" metaname="tRestResponse" offsetLabelX="0" offsetLabelY="0" source="tXMLMap_3" target="tRESTResponse_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRestResponse"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRESTRequest_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSetGlobalVar_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_79e85cb4-f5fe-4f3a-9afa-2c51ca27910a"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>TzZ8bZYln4GjjXgHlGGEHRjsdyyRpMMK5wdL9c6H339S9aqJML8K0ybiSdJQHQ3xdCqvf1mN4PEG
+xwpe0jBrOw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ffcd5bf7-b329-463c-a408-b16af12c167e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>L5XzybaPS9bVqIrlTZbfFEqyjPXiuu5hjQC81ibdKedMLnbCmGfGmSo1nwA2uNJnwEeLT9DJtADo
+1tOc6n8otw==</DigestValue></Reference></SignedInfo><SignatureValue>dI5WM1Wuo13heWW6onGsjveKf8NdqL/eQfmTnwj1ampp0E/yGfA7bJqR/NtD3rqsYTXfGjmum6yq
+IAEQ0YkNsLA3+jwjvqmuUbds34mVCIuCVmyKq7coFZuVGPwI2nmvthqczP27/bMgFFqHc4r08UQs
+kcWJMtWymhHokUhmUnD+N6+HbggWHxoMwgwxGxKo9vu/ypWgKQsq1Gt/zIckiD0tpUCAoK6M97OB
+TdxzFRX/7xwQCJ2lDdG1Pba9Dn47y4TvVgyyxfwar88uAawV6O10wde+l+vYeoUeUrO3MCDC9pSt
+BfowTur6VtknDbBu291Ek/VVY7QLTLBFQmUJCQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ffcd5bf7-b329-463c-a408-b16af12c167e" Target="#_79e85cb4-f5fe-4f3a-9afa-2c51ca27910a"><Timestamp>2023-07-11 17:11:57</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

@@ -1,0 +1,192 @@
+{
+  "itemId" : "_rtlxEKExEe--sLhyQHzS2g",
+  "contextList" : [ {
+    "contextName" : "prod",
+    "repoId" : "_ShVsMLFjEe2EQcNIaPr6cA",
+    "parameterList" : [ {
+      "id" : "_p21ek7ebEe2Yrv45Fcvc0w",
+      "name" : "schema"
+    }, {
+      "id" : "_p21elLebEe2Yrv45Fcvc0w",
+      "name" : "database"
+    }, {
+      "id" : "_p21elrebEe2Yrv45Fcvc0w",
+      "name" : "password"
+    }, {
+      "id" : "_p21ekrebEe2Yrv45Fcvc0w",
+      "name" : "port"
+    }, {
+      "id" : "_p21ekbebEe2Yrv45Fcvc0w",
+      "name" : "host"
+    }, {
+      "id" : "_p21elbebEe2Yrv45Fcvc0w",
+      "name" : "username"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_s8j_ELFpEe22G_WAJWyumA",
+    "parameterList" : [ {
+      "id" : "_DCqy8bIMEe2sNKJNnbBWNg",
+      "name" : "debug"
+    }, {
+      "id" : "_w3jLyAk-Ee6ZZvEfaxZaKQ",
+      "name" : "schematable_fos"
+    }, {
+      "id" : "_w3jLxgk-Ee6ZZvEfaxZaKQ",
+      "name" : "schematable_users"
+    }, {
+      "id" : "_w3jLxQk-Ee6ZZvEfaxZaKQ",
+      "name" : "schematable_curriculum"
+    }, {
+      "id" : "__uc4MQr3Ee6Dhq8kFPHUUw",
+      "name" : "schematable_sport"
+    }, {
+      "id" : "_w3jLxwk-Ee6ZZvEfaxZaKQ",
+      "name" : "schematable_students"
+    }, {
+      "id" : "_w3jLyQk-Ee6ZZvEfaxZaKQ",
+      "name" : "schematable_advisors"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_ShVsMLFjEe2EQcNIaPr6cA",
+    "parameterList" : [ {
+      "id" : "_egQGgrFpEe22G_WAJWyumA",
+      "name" : "schema"
+    }, {
+      "id" : "_egQGg7FpEe22G_WAJWyumA",
+      "name" : "database"
+    }, {
+      "id" : "_egQGhbFpEe22G_WAJWyumA",
+      "name" : "password"
+    }, {
+      "id" : "_egQGgbFpEe22G_WAJWyumA",
+      "name" : "port"
+    }, {
+      "id" : "_egQGgLFpEe22G_WAJWyumA",
+      "name" : "host"
+    }, {
+      "id" : "_egQGhLFpEe22G_WAJWyumA",
+      "name" : "username"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_s8j_ELFpEe22G_WAJWyumA",
+    "parameterList" : [ {
+      "id" : "_DCqy8LIMEe2sNKJNnbBWNg",
+      "name" : "debug"
+    }, {
+      "id" : "_w3jLwwk-Ee6ZZvEfaxZaKQ",
+      "name" : "schematable_fos"
+    }, {
+      "id" : "_w3jLwQk-Ee6ZZvEfaxZaKQ",
+      "name" : "schematable_users"
+    }, {
+      "id" : "_w3jLwAk-Ee6ZZvEfaxZaKQ",
+      "name" : "schematable_curriculum"
+    }, {
+      "id" : "__uc4MAr3Ee6Dhq8kFPHUUw",
+      "name" : "schematable_sport"
+    }, {
+      "id" : "_w3jLwgk-Ee6ZZvEfaxZaKQ",
+      "name" : "schematable_students"
+    }, {
+      "id" : "_w3jLxAk-Ee6ZZvEfaxZaKQ",
+      "name" : "schematable_advisors"
+    } ]
+  }, {
+    "contextName" : "Development",
+    "repoId" : "_s8j_ELFpEe22G_WAJWyumA",
+    "parameterList" : [ {
+      "id" : "_DCqy8bIMEe2sNKJNnbBWNg",
+      "name" : "debug"
+    }, {
+      "id" : "_w3jLyAk-Ee6ZZvEfaxZaKQ",
+      "name" : "schematable_fos"
+    }, {
+      "id" : "_w3jLxgk-Ee6ZZvEfaxZaKQ",
+      "name" : "schematable_users"
+    }, {
+      "id" : "_w3jLxQk-Ee6ZZvEfaxZaKQ",
+      "name" : "schematable_curriculum"
+    }, {
+      "id" : "__uc4MQr3Ee6Dhq8kFPHUUw",
+      "name" : "schematable_sport"
+    }, {
+      "id" : "_w3jLxwk-Ee6ZZvEfaxZaKQ",
+      "name" : "schematable_students"
+    }, {
+      "id" : "_w3jLyQk-Ee6ZZvEfaxZaKQ",
+      "name" : "schematable_advisors"
+    } ]
+  }, {
+    "contextName" : "Development",
+    "repoId" : "_ShVsMLFjEe2EQcNIaPr6cA",
+    "parameterList" : [ {
+      "id" : "_p21ekbebEe2Yrv45Fcvc0w",
+      "name" : "host"
+    }, {
+      "id" : "_p21ekrebEe2Yrv45Fcvc0w",
+      "name" : "port"
+    }, {
+      "id" : "_p21ek7ebEe2Yrv45Fcvc0w",
+      "name" : "schema"
+    }, {
+      "id" : "_p21elLebEe2Yrv45Fcvc0w",
+      "name" : "database"
+    }, {
+      "id" : "_p21elbebEe2Yrv45Fcvc0w",
+      "name" : "username"
+    }, {
+      "id" : "_p21elrebEe2Yrv45Fcvc0w",
+      "name" : "password"
+    } ]
+  }, {
+    "contextName" : "Test",
+    "repoId" : "_s8j_ELFpEe22G_WAJWyumA",
+    "parameterList" : [ {
+      "id" : "_sQUzk7edEe2Yrv45Fcvc0w",
+      "name" : "debug"
+    }, {
+      "id" : "_w3jL0gk-Ee6ZZvEfaxZaKQ",
+      "name" : "schematable_fos"
+    }, {
+      "id" : "_w3jL0Ak-Ee6ZZvEfaxZaKQ",
+      "name" : "schematable_users"
+    }, {
+      "id" : "_w3jLzwk-Ee6ZZvEfaxZaKQ",
+      "name" : "schematable_curriculum"
+    }, {
+      "id" : "__uc4Mwr3Ee6Dhq8kFPHUUw",
+      "name" : "schematable_sport"
+    }, {
+      "id" : "_w3jL0Qk-Ee6ZZvEfaxZaKQ",
+      "name" : "schematable_students"
+    }, {
+      "id" : "_w3jL0wk-Ee6ZZvEfaxZaKQ",
+      "name" : "schematable_advisors"
+    } ]
+  }, {
+    "contextName" : "Test",
+    "repoId" : "_ShVsMLFjEe2EQcNIaPr6cA",
+    "parameterList" : [ {
+      "id" : "_p21emLebEe2Yrv45Fcvc0w",
+      "name" : "host"
+    }, {
+      "id" : "_p21embebEe2Yrv45Fcvc0w",
+      "name" : "port"
+    }, {
+      "id" : "_p21emrebEe2Yrv45Fcvc0w",
+      "name" : "schema"
+    }, {
+      "id" : "_p21em7ebEe2Yrv45Fcvc0w",
+      "name" : "database"
+    }, {
+      "id" : "_p21enLebEe2Yrv45Fcvc0w",
+      "name" : "username"
+    }, {
+      "id" : "_p21enbebEe2Yrv45Fcvc0w",
+      "name" : "password"
+    } ]
+  } ]
+}

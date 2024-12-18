@@ -1,0 +1,54 @@
+{
+  "itemId" : "_s0FxwIFUEe2PfupNtG4rUA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_RRdj8HWzEe2Yw-GXD6Q6Bw",
+    "parameterList" : [ {
+      "id" : "_d_9DIoBiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_password"
+    }, {
+      "id" : "_d_9DI4BiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_port"
+    }, {
+      "id" : "_d_9DJIBiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_schema"
+    }, {
+      "id" : "_d_9DIYBiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_additionalParams"
+    }, {
+      "id" : "_d_9DJ4BiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_serviceName"
+    }, {
+      "id" : "_d_9DJYBiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_server"
+    }, {
+      "id" : "_d_9DJoBiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_login"
+    } ]
+  }, {
+    "contextName" : "Development",
+    "repoId" : "_RRdj8HWzEe2Yw-GXD6Q6Bw",
+    "parameterList" : [ {
+      "id" : "_d_9DIoBiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_password"
+    }, {
+      "id" : "_d_9DI4BiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_port"
+    }, {
+      "id" : "_d_9DJIBiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_schema"
+    }, {
+      "id" : "_d_9DIYBiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_additionalParams"
+    }, {
+      "id" : "_d_9DJ4BiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_serviceName"
+    }, {
+      "id" : "_d_9DJYBiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_server"
+    }, {
+      "id" : "_d_9DJoBiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_login"
+    } ]
+  } ]
+}

@@ -1,0 +1,80 @@
+{
+  "itemId" : "_V_glsK1REe2nNYXBrA8DYA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_RRdj8HWzEe2Yw-GXD6Q6Bw",
+    "parameterList" : [ {
+      "id" : "_d_9DIoBiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_password"
+    }, {
+      "id" : "_d_9DI4BiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_port"
+    }, {
+      "id" : "_d_9DJIBiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_schema"
+    }, {
+      "id" : "_d_9DIYBiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_additionalParams"
+    }, {
+      "id" : "_d_9DJ4BiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_serviceName"
+    }, {
+      "id" : "_d_9DJYBiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_server"
+    }, {
+      "id" : "_d_9DJoBiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_login"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_vM9TQLL8Ee2fSJZG-7j-QQ",
+    "parameterList" : [ {
+      "id" : "_q7fWsLL_Ee2fSJZG-7j-QQ",
+      "name" : "Azure_Employee_API_hr_benefit_plan_lookup"
+    }, {
+      "id" : "_vOWaYbL8Ee2fSJZG-7j-QQ",
+      "name" : "Azure_Employee_API_hr_org_lookup"
+    }, {
+      "id" : "_JDeaQtP3Ee2B5u1XVMJmKA",
+      "name" : "Azure_Employee_API_hr_active_assgn_status"
+    } ]
+  }, {
+    "contextName" : "Development",
+    "repoId" : "_RRdj8HWzEe2Yw-GXD6Q6Bw",
+    "parameterList" : [ {
+      "id" : "_d_9DIoBiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_password"
+    }, {
+      "id" : "_d_9DI4BiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_port"
+    }, {
+      "id" : "_d_9DJIBiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_schema"
+    }, {
+      "id" : "_d_9DIYBiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_additionalParams"
+    }, {
+      "id" : "_d_9DJ4BiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_serviceName"
+    }, {
+      "id" : "_d_9DJYBiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_server"
+    }, {
+      "id" : "_d_9DJoBiEeuCwsujTOq9Kw",
+      "name" : "connection_OracleHub_login"
+    } ]
+  }, {
+    "contextName" : "Development",
+    "repoId" : "_vM9TQLL8Ee2fSJZG-7j-QQ",
+    "parameterList" : [ {
+      "id" : "_q7fWsbL_Ee2fSJZG-7j-QQ",
+      "name" : "Azure_Employee_API_hr_benefit_plan_lookup"
+    }, {
+      "id" : "_z2WgQbL8Ee2fSJZG-7j-QQ",
+      "name" : "Azure_Employee_API_hr_org_lookup"
+    }, {
+      "id" : "_JDfBUtP3Ee2B5u1XVMJmKA",
+      "name" : "Azure_Employee_API_hr_active_assgn_status"
+    } ]
+  } ]
+}

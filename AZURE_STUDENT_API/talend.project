@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_ll7E0WHtEe21SJiOox3-HQ" label="Azure_student_API" description="" language="java" technicalLabel="AZURE_STUDENT_API" author="_ll7E0mHtEe21SJiOox3-HQ" productVersion="Talend Cloud API Services Platform-7.3.1.20240802_1246-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/creighton-university/Azure_Student_API.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+    <migrationTask xmi:id="_lnP6gGHtEe21SJiOox3-HQ" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_ll7E0mHtEe21SJiOox3-HQ" login="ds44881g@creighton.edu" firstName="ds44881g" lastName="removed" type="DQ"/>
+  <TalendProperties:User xmi:id="_2sgZ0GQzEe2pN-3kuYMN_g" login="cusoftware@creighton.edu" firstName="CUSOFTWARE" lastName="CUSOFTWARE" type="DQ"/>
+  <TalendProperties:User xmi:id="_2sgZ0WQzEe2pN-3kuYMN_g" login="joshwester@creighton.edu" firstName="Josh" lastName="Wester" type="DQ"/>
+  <TalendProperties:User xmi:id="_2sgZ0mQzEe2pN-3kuYMN_g" login="ravichandranrajagopal@creighton.edu" firstName="Ravichandran" lastName="Rajagopal" type="DQ"/>
+  <TalendProperties:User xmi:id="_2sgZ02QzEe2pN-3kuYMN_g" login="alexbaker@creighton.edu" firstName="Alexander" lastName="Baker" type="DQ"/>
+  <TalendProperties:User xmi:id="_2sgZ1GQzEe2pN-3kuYMN_g" login="lisayates@creighton.edu" firstName="Lisa" lastName="Yates" type="DQ"/>
+  <TalendProperties:User xmi:id="_2sgZ1WQzEe2pN-3kuYMN_g" login="dhw75301@creighton.edu" firstName="Dennis" lastName="Woolman" type="DQ"/>
+  <TalendProperties:User xmi:id="_2sgZ1mQzEe2pN-3kuYMN_g" login="csc36472@creighton.edu" firstName="Chad" lastName="Christensen" type="DQ"/>
+  <TalendProperties:User xmi:id="_2sgZ12QzEe2pN-3kuYMN_g" login="markpanning@creighton.edu" firstName="Mark" lastName="Panning" type="DQ"/>
+  <TalendProperties:User xmi:id="_2sgZ2GQzEe2pN-3kuYMN_g" login="vm80456g@creighton.edu" firstName="Vivek" lastName="Murugesan" type="DQ"/>
+  <TalendProperties:User xmi:id="_2sgZ2WQzEe2pN-3kuYMN_g" login="rj39337g@creighton.edu" firstName="Rakesh" lastName="Jha" type="DQ"/>
+  <TalendProperties:User xmi:id="_2sgZ2mQzEe2pN-3kuYMN_g" login="shekargundemoni@creighton.edu" firstName="Shekar" lastName="Gundemoni" type="DQ"/>
+  <TalendProperties:User xmi:id="_2sgZ22QzEe2pN-3kuYMN_g" login="ryanbumstead@creighton.edu" firstName="Ryan" lastName="Bumstead" type="DQ"/>
+  <TalendProperties:User xmi:id="_2shA4GQzEe2pN-3kuYMN_g" login="vijay.bachu@creighton.edu" firstName="Vijay" lastName="Bachu" type="DQ"/>
+  <TalendProperties:User xmi:id="_2shA4WQzEe2pN-3kuYMN_g" login="nickstankus@creighton.edu" firstName="Nick" lastName="Stankus" type="DQ"/>
+  <TalendProperties:User xmi:id="_2shA4mQzEe2pN-3kuYMN_g" login="rma45383@creighton.edu" firstName="Rajesh" lastName="Majoju" type="DQ"/>
+  <TalendProperties:User xmi:id="_Ox6HMLnhEe2aJOLvW8Hx3g" login="nitin.pawar@creighton.edu" firstName="Nitin" lastName="Pawar" type="DQ"/>
+  <TalendProperties:User xmi:id="_vgMjQAPYEe6j4NbAh3_hQw" login="sre41732@creighton.edu" firstName="Srinivas" lastName="Redlam" type="DQ"/>
+  <TalendProperties:User xmi:id="_vZE9AIPcEe6nltcrWs5LDw" login="srinureddypitchapati@creighton.edu" firstName="Srinureddy" lastName="Pitchapati" type="DQ"/>
+  <TalendProperties:User xmi:id="_0_DxwJO5Ee6Y6PsSYdBm1w" login="jagadeeshjagili@creighton.edu" firstName="Jagadeesh" lastName="Jagili" type="DQ"/>
+  <TalendProperties:User xmi:id="_0_DxwZO5Ee6Y6PsSYdBm1w" login="gauravgupta@creighton.edu" firstName="Gaurav" lastName="Gupta" type="DQ"/>
+  <TalendProperties:User xmi:id="_0_DxwpO5Ee6Y6PsSYdBm1w" login="mounigarikipati@creighton.edu" firstName="Mouni" lastName="Garikipati" type="DQ"/>
+  <TalendProperties:User xmi:id="_0_Dxw5O5Ee6Y6PsSYdBm1w" login="matthewcrowl@creighton.edu" firstName="Matthew" lastName="Crowl" type="DQ"/>
+  <TalendProperties:User xmi:id="_SfyVAD7-Ee-pQojVU552Bg" login="freddychew@creighton.edu" firstName="Freddy" lastName="Chew" type="DQ"/>
+  <TalendProperties:User xmi:id="_EkHnYGY6Ee-wrZ9W6VsuwQ" login="markandrews@creighton.edu" firstName="Mark" lastName="Andrews" type="DQ"/>
+</xmi:XMI>
